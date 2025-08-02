@@ -2,6 +2,7 @@ import os
 import sys 
 from src.exception import CustomException 
 from src.logger import logging 
+from data_transformation import DataTransformation,DataTransformationConfig
 import pandas as pd 
 from sklearn.model_selection import train_test_split 
 from dataclasses import dataclass
@@ -42,4 +43,7 @@ class DataIngestion:
             
 if __name__=='__main__':
     obj=DataIngestion()
-    obj.initiate_data_ingestion()
+    train_data,test_data=obj.initiate_data_ingestion()
+
+    data_tranformation=DataTransformation()
+    data_tranformation.initiate_data_transformation(train_path=train_data,test_path=test_data)
