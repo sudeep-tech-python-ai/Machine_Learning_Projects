@@ -1,0 +1,10 @@
+artifact_location: file:///Users/shindesudeep/Desktop/Machine_Learning_Projects/NetworkSecurity/mlruns/0/models/m-9143b7d89a5f426182d7f5c97301e2e4/artifacts
+creation_timestamp: 1755842582515
+experiment_id: '0'
+last_updated_timestamp: 1755842584529
+model_id: m-9143b7d89a5f426182d7f5c97301e2e4
+model_type: null
+name: model
+source_run_id: fa659c90935949eea7c39be6def2d463
+status: 2
+status_message: null
