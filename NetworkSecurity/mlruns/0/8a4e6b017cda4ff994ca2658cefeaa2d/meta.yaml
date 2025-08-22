@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/shindesudeep/Desktop/Machine_Learning_Projects/NetworkSecurity/mlruns/0/8a4e6b017cda4ff994ca2658cefeaa2d/artifacts
+end_time: 1755863908965
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a4e6b017cda4ff994ca2658cefeaa2d
+run_name: bustling-shrew-748
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755863907624
+status: 3
+tags: []
+user_id: shindesudeep
