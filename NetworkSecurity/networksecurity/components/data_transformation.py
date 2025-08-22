@@ -12,7 +12,7 @@ from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 from networksecurity.utils.main_utils.utils import save_numpy_array_data,save_object
 
-class DataTranformation:
+class DataTransformation:
     def __init__(self,data_validation_artifact:DataValidationArtifacts,data_transformation_config:DataTransformationConfig):
         try:
             self.data_validation_artifact:DataValidationArtifacts=data_validation_artifact
@@ -54,8 +54,8 @@ class DataTranformation:
         logging.info("Entered initiate_data_transformation method of DataTransformation class")
         try:
             logging.info("Starting data transformation")
-            train_df=DataTranformation.read_data(self.data_validation_artifact.valid_train_file_path)
-            test_df=DataTranformation.read_data(self.data_validation_artifact.valid_test_file_path)
+            train_df=DataTransformation.read_data(self.data_validation_artifact.valid_train_file_path)
+            test_df=DataTransformation.read_data(self.data_validation_artifact.valid_test_file_path)
 
             # training dataframe
             input_feature_train_df=train_df.drop(columns=[TARGET_COLUMN],axis=1)
